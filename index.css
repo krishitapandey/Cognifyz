@@ -1,456 +1,523 @@
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-      * {
-          margin: 0px;
-          padding: 0px;
-          color: black;
-          box-sizing: border-box;
-          font-family: Montserrat, Georgia, Courier New;
-      }
-      
-      nav {
-          width: 90vw;
-          height: 50px;
-          display: flex;
-          margin: 1vw 1vw 2vw 2vw;
-          justify-content: space-between;
-      }
-      
-      img {
-          width: 10rem;
-          max-width: 100%;
-          /* Ensure image does not overflow its container */
-      }
-      
-      .middle,
-      .right {
-          font-size: 5em;
-          margin-top: 0.3rem;
-      }
-      
-      .middle ul {
-          display: flex;
-          justify-content: center;
-          list-style: none;
-          text-align: center;
-      }
-      
-      .middle ul li {
-          width: 600px;
-          text-decoration: none;
-      }
-      
-      .middle ul li a {
-          text-decoration: none;
-          font-style: none;
-          font-weight: 500;
-          color: black;
-          transition: 0.1ms;
-      }
-      
-      .middle ul li a:hover {
-          border-bottom: 5px solid black;
-          font-weight: 700;
-          cursor: pointer;
-      }
-      
-      .right {
-          text-align: center;
-          margin-right: 100px;
-      }
-      
-      .right ul a {
-          font-size: 90px;
-          margin-right: 60px;
-          color: black;
-          padding: 15px;
-          border-radius: 80px;
-          text-align: center;
-          background: #E8E8E8;
-          transition: 0.1ms;
-      }
-      /* content */
-      
-      #top1 {
-          background: #F8F5F9;
-          display: flex;
-          flex-direction: row;
-      }
-      
-      #top1 .left {
-          width: 38.5%;
-          height: 400px;
-      }
-      
-      #top1 .left img {
-          width: 100%;
-      }
-      
-      #top1 .right {
-          width: 80%;
-          height: 1705px;
-          padding: 400px 0 0 5px;
-          margin-top: 20px;
-      }
-      
-      #top1 .right img {
-          width: 400px;
-          height: 350px;
-          padding: 30px;
-      }
-      
-      .right h1 {
-          font-size: 150px;
-          font-weight: 300;
-          text-align: center;
-      }
-      
-      .right p {
-          padding: 30px;
-          font-size: 50px;
-          font-weight: 500;
-          text-align: center;
-      }
-      
-      .right button {
-          border: 5px solid black;
-          background: transparent;
-          text-align: center;
-          font-size: 60px;
-          font-weight: 700;
-          margin: 50px;
-          width: 700px;
-          padding: 50px;
-          border-radius: 70px;
-      }
-      
-      .right button:hover {
-          background: black;
-          color: white;
-      }
-      
-      #bread_family {
-          background-image: url("img/mb.png");
-          width: 100vw;
-          /* 100% of the viewport width */
-          height: 70vh;
-          /* 100% of the viewport height */
-          padding: 100px;
-          /* Center the image */
-          background-position: center;
-          background-repeat: no-repeat;
-          /* Scale the image to cover the entire container */
-          background-size: cover;
-      }
-      
-      #bread_col {
-          padding-top: 200px;
-          color: white;
-          font-weight: 200;
-          text-align: center;
-          font-size: 6rem;
-          margin-left: 1000px;
-          margin-top: 300px;
-          display: flex;
-          flex-direction: row;
-      }
-      
-      #bread_family h4 {
-          padding-top: 200px;
-          color: white;
-          font-weight: 200;
-          text-align: center;
-          font-size: 3vw;
-      }
-      
-      .b-1 {
-          margin-left: 400px;
-          border-radius: 20px;
-          background-color: white;
-          width: 700px;
-          height: 1200px;
-      }
-      
-      .b-1 img {
-          width: 100%;
-          height: 600px;
-          background-position: center;
-          padding: 40px;
-          background-repeat: no-repeat;
-      }
-      
-      .b-1 h2 {
-          text-align: center;
-          font-size: 60px;
-          padding: 20px;
-      }
-      
-      .b-1 p {
-          text-align: center;
-          font-size: 40px;
-          line-height: 50px;
-          padding: 20px;
-      }
-      
-      .b-1 a {
-          text-align: center;
-          font-size: 60px;
-          font-weight: 500;
-      }
-      
-      .b-1 a:hover {
-          color: blue;
-      }
-      
-      #top2 {
-          background: #F8F5F9;
-          display: flex;
-          flex-direction: row;
-      }
-      
-      #top2 .left {
-          width: 60%;
-          height: -10px;
-      }
-      
-      #top2 .left img {
-          width: 100%;
-      }
-      
-      #top2 .right {
-          width: 80%;
-          height: 2000px;
-          padding: 400px 0 0 5px;
-          margin-top: 20px;
-      }
-      
-      #top2 .right img {
-          width: 400px;
-          height: 350px;
-      }
-      
-      #top2 .right h1 {
-          font-size: 200px;
-          font-weight: 300;
-          text-align: center;
-      }
-      
-      #top2 .right p {
-          font-size: 70px;
-          font-weight: 500;
-          width: 1500px;
-          text-align: center;
-          margin-left: 1170px;
-      }
-      
-      #top2 .right button {
-          border: 5px solid black;
-          background: transparent;
-          text-align: center;
-          font-size: 60px;
-          font-weight: 700;
-          margin: 50px;
-          width: 700px;
-          padding: 50px;
-          border-radius: 70px;
-      }
-      
-      #top2 .right button:hover {
-          background: black;
-          color: white;
-      }
-      
-      #last {
-          position: relative;
-          /* Make sure it's a positioned container for absolute positioning of pseudo-element */
-          width: 100%;
-          height: 80vh;
-          overflow: hidden;
-          /* Hide overflow from pseudo-element */
-      }
-      
-      #last::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 280vh;
-          background-image: url('img/last.jpg');
-          filter: brightness(50%);
-          /* Apply brightness filter only to the background image */
-          z-index: -1;
-          /* Move pseudo-element behind other content */
-      }
-      
-      .topmost {
-          position: relative;
-          /* Ensure z-index works */
-          z-index: 1;
-          /* Ensure .topmost content appears above pseudo-element */
-      }
-      
-      .topmost h4 {
-          text-align: center;
-          padding-top: 150px;
-          font-size: 200px;
-          font-weight: 300;
-          color: white;
-      }
-      
-      .firstt,
-      .second,
-      .third {
-          display: flex;
-          margin: 100px;
-          flex-direction: row;
-          justify-content: center;
-          /* Center items along the main axis (horizontal) */
-          align-items: center;
-      }
-      
-      .f_a {
-          background-color: rgba(0, 0, 0, 0.55);
-          width: 1200px;
-          border-radius: 60px;
-          height: 600px;
-          display: flex;
-          margin: 50px;
-          padding: 20px;
-          display: flex;
-          flex-direction: column;
-          text-align: start;
-          justify-content: flex-start;
-      }
-      
-      .f_a h2 {
-          font-size: 60px;
-          margin: 30px;
-          color: wheat;
-      }
-      
-      .f_a p {
-          font-family: Georgia, Courier New;
-          font-style: italic;
-          font-size: 50px;
-          margin: 40px;
-          color: rgb(177, 175, 175);
-          line-height: 60px;
-      }
-      
-      footer {
-          height: 100vh;
-          background-color: #FFF7E5;
-          width: 100%;
-          background-size: cover;
-          position: absolute;
-          background-repeat: no-repeat;
-          background-image: url('img/footer.jpg');
-      }
-      
-      footer h4 {
-          position: relative;
-          font-size: 250px;
-          left: 90vh;
-          width: 50vh;
-          font-weight: 350;
-          top: 15vh;
-      }
-      
-      .contain {
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          position: absolute;
-      }
-      
-      .contain .email,
-      .contain .Name {
-          position: relative;
-          left: 60vh;
-          margin: 70px;
-          top: 20vh;
-      }
-      
-      .email p,
-      .Name p {
-          font-size: 60px;
-          font-weight: 450;
-      }
-      
-      .email input,
-      .Name input {
-          margin-top: 30px;
-          width: 1400px;
-          height: 150px;
-          border: 2px solid white;
-          border-radius: 200px;
-          color: #E8E8E8;
-          font-size: 60px;
-          padding: 40px;
-      }
-      
-      footer button {
-          position: relative;
-          left: 65vh;
-          margin: 70px;
-          top: 33vh;
-          margin: 20px;
-          background: black;
-          text-align: center;
-          color: white;
-          border-radius: 80px;
-          font-size: 70px;
-          width: 70vh;
-          height: 150px;
-      }
-      
-      footer button:hover {
-          background: rgba(197, 75, 75, 0.821);
-          color: white;
-      }
-      
-      .last {
-          display: flex;
-          flex-direction: row;
-          width: 100%;
-      }
-      
-      .find {
-          position: relative;
-          display: flex;
-          top: 45vh;
-          width: 1000px;
-          left: 70vh;
-          flex-direction: column;
-      }
-      
-      .find a {
-          font-size: 70px;
-          width: 800px;
-          font-weight: 800;
-          margin: 20px 0 20px 0;
-          margin-bottom: 150px;
-      }
-      
-      .find p {
-          font-size: 60px;
-          width: 700px;
-          line-height: 100px;
-          font-weight: 400;
-      }
-      
-      .find h2 {
-          font-size: 60px;
-          width: 700px;
-          margin: 20px 0 20px 0;
-          font-weight: 600;
-      }
-      
-      .phone p {
-          border-bottom: 5px solid rgb(255, 140, 0);
-          font-size: 60px;
-          width: 450px;
-          margin-bottom: 80px;
-          /* line-height: 170px; */
-          font-weight: 600;
-      }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    box-sizing: border-box;
+    font-family: Montserrat, Georgia, Courier New;
+}
+
+nav {
+    width: 90vw;
+    height: 50px;
+    display: flex;
+    margin: 1vw 1vw 2vw 2vw;
+    justify-content: space-between;
+}
+
+img {
+    width: 10rem;
+    max-width: 100%;
+    /* Ensure image does not overflow its container */
+}
+
+.middle,
+.right {
+    font-size: 5em;
+    margin-top: 0.3rem;
+}
+
+.middle ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.middle ul li {
+    width: 600px;
+    text-decoration: none;
+}
+
+.middle ul li a {
+    text-decoration: none;
+    font-style: none;
+    font-weight: 500;
+    color: black;
+    transition: 0.1ms;
+}
+
+.middle ul li a:hover {
+    border-bottom: 5px solid black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.right {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.right ul a {
+    font-size: 90px;
+    margin-right: 60px;
+    color: black;
+    padding: 15px;
+    border-radius: 80px;
+    text-align: center;
+    background: #e8e8e8;
+    transition: 0.1ms;
+}
+
+
+/* content */
+
+#top1 {
+    background: #f8f5f9;
+    display: flex;
+    flex-direction: row;
+}
+
+#top1 .left {
+    width: 38.5%;
+    height: 400px;
+}
+
+#top1 .left img {
+    width: 100%;
+}
+
+#top1 .right {
+    width: 80%;
+    height: 1705px;
+    padding: 400px 0 0 5px;
+    margin-top: 20px;
+}
+
+#top1 .right img {
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+}
+
+.right h1 {
+    font-size: 150px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.right p {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.right button {
+    border: 5px solid black;
+    background: transparent;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 50px;
+    width: 700px;
+    padding: 50px;
+    border-radius: 70px;
+}
+
+.right button:hover {
+    background: black;
+    color: white;
+}
+
+#bread_family {
+    background-image: url("img/mb.png");
+    width: 100vw;
+    /* 100% of the viewport width */
+    height: 70vh;
+    /* 100% of the viewport height */
+    padding: 100px;
+    /* Center the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Scale the image to cover the entire container */
+    background-size: cover;
+}
+
+#bread_col {
+    padding-top: 200px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 1000px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#bread_family h4 {
+    padding-top: 200px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.b-1 {
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: white;
+    width: 700px;
+    height: 1200px;
+}
+
+.b-1 img {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    padding: 40px;
+    background-repeat: no-repeat;
+}
+
+.b-1 h2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.b-1 p {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.b-1 a {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.b-1 a:hover {
+    color: blue;
+}
+
+#top2 {
+    background: #f8f5f9;
+    display: flex;
+    flex-direction: row;
+}
+
+#top2 .left {
+    width: 60%;
+    height: -10px;
+}
+
+#top2 .left img {
+    width: 100%;
+}
+
+#top2 .right {
+    width: 80%;
+    height: 2000px;
+    padding: 400px 0 0 5px;
+    margin-top: 20px;
+}
+
+#top2 .right img {
+    width: 400px;
+    height: 350px;
+}
+
+#top2 .right h1 {
+    font-size: 200px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#top2 .right p {
+    font-size: 70px;
+    font-weight: 500;
+    width: 1500px;
+    text-align: center;
+    margin-left: 1170px;
+}
+
+#top2 .right button {
+    border: 5px solid black;
+    background: transparent;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 50px;
+    width: 700px;
+    padding: 50px;
+    border-radius: 70px;
+}
+
+#top2 .right button:hover {
+    background: black;
+    color: white;
+}
+
+#last {
+    position: relative;
+    /* Make sure it's a positioned container for absolute positioning of pseudo-element */
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    /* Hide overflow from pseudo-element */
+}
+
+#last::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 280vh;
+    background-image: url("img/last.jpg");
+    filter: brightness(50%);
+    /* Apply brightness filter only to the background image */
+    z-index: -1;
+    /* Move pseudo-element behind other content */
+}
+
+.topmost {
+    position: relative;
+    /* Ensure z-index works */
+    z-index: 1;
+    /* Ensure .topmost content appears above pseudo-element */
+}
+
+.topmost h4 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 200px;
+    font-weight: 300;
+    color: white;
+}
+
+.firstt,
+.second,
+.third {
+    display: flex;
+    margin: 100px;
+    flex-direction: row;
+    justify-content: center;
+    /* Center items along the main axis (horizontal) */
+    align-items: center;
+}
+
+.f_a {
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 1200px;
+    border-radius: 60px;
+    height: 600px;
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.f_a h2 {
+    font-size: 60px;
+    margin: 30px;
+    color: wheat;
+}
+
+.f_a p {
+    font-family: Georgia, Courier New;
+    font-style: italic;
+    font-size: 50px;
+    margin: 40px;
+    color: rgb(177, 175, 175);
+    line-height: 60px;
+}
+
+footer {
+    height: 100vh;
+    background-color: #fff7e5;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url("img/footer.jpg");
+}
+
+footer h4 {
+    position: relative;
+    font-size: 250px;
+    left: 90vh;
+    width: 50vh;
+    font-weight: 350;
+    top: 15vh;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.contain .email,
+.contain .Name {
+    position: relative;
+    left: 60vh;
+    margin: 70px;
+    top: 20vh;
+}
+
+.email p,
+.Name p {
+    font-size: 60px;
+    font-weight: 450;
+}
+
+.email input,
+.Name input {
+    margin-top: 30px;
+    width: 1400px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 200px;
+    color: black;
+    font-size: 60px;
+    padding: 40px;
+}
+
+footer button {
+    position: relative;
+    left: 65vh;
+    top: 33vh;
+    margin: 20px;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 80px;
+    font-size: 70px;
+    width: 70vh;
+    height: 150px;
+}
+
+
+/* Add this CSS rule to change the background color when the button is clicked */
+
+button.clicked {
+    background-color: rebeccapurple;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.find {
+    position: relative;
+    display: flex;
+    top: 45vh;
+    width: 1000px;
+    left: 70vh;
+    flex-direction: column;
+}
+
+.find a {
+    font-size: 70px;
+    width: 800px;
+    font-weight: 800;
+    margin: 20px 0 20px 0;
+    margin-bottom: 150px;
+}
+
+.find p {
+    font-size: 60px;
+    width: 700px;
+    line-height: 100px;
+    font-weight: 400;
+}
+
+.find h2 {
+    font-size: 60px;
+    width: 700px;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+}
+
+.phone p {
+    border-bottom: 5px solid rgb(255, 140, 0);
+    font-size: 60px;
+    width: 450px;
+    margin-bottom: 80px;
+    /* line-height: 170px; */
+    font-weight: 600;
+}
+
+#lastt1 {
+    background-color: #fff7e5;
+    height: 115vh;
+}
+
+#lastfinal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    width: 90%;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+#output,
+#lastfinal #number1,
+#lastfinal #number2 {
+    color: black;
+    background-color: rgb(254, 254, 254);
+    width: 20%;
+    font-size: 70px;
+    border-radius: 100px;
+    margin-top: 4000px;
+    font-weight: 200;
+    height: 5vh;
+}
+
+#lastfinal #cal,
+#total {
+    color: black;
+    background-color: transparent;
+    border: 0px;
+    width: 10%;
+    font-size: 80px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    margin-top: 4000px;
+    font-weight: 200;
+    height: 5vh;
+}
+
+#total p,
+#cal p {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 200;
+    height: 05vh;
+}
+
+input {
+    margin: 20px;
+    text-align: center;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
